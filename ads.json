@@ -1,0 +1,57 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "atlas game",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ReplyACountry",
+                    "slots": [
+                        {
+                            "name": "country",
+                            "type": "AMAZON.Country"
+                        }
+                    ],
+                    "samples": [
+                        "I go with {country} ",
+                        "I will go with {country}",
+                        "I choose {country}",
+                        "I will choose {country}",
+                        "the country is {country}",
+                        "{country}"
+                    ]
+                },
+                {
+                    "name": "MoreInfo",
+                    "slots": [
+                        {
+                            "name": "info",
+                            "type": "AMAZON.Country"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me about {info}",
+                        "Could you tell me more about {info}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
+
